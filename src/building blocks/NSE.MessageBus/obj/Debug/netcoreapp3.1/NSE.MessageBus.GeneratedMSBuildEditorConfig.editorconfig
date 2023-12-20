@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = NSE.MessageBus
+build_property.ProjectDir = C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

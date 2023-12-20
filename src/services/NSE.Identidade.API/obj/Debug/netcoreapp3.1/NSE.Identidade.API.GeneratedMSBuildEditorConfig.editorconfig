@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = NSE.Identidade.API
+build_property.ProjectDir = C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

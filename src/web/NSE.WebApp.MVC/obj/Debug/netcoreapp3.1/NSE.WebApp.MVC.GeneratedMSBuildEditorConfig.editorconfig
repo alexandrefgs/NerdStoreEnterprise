@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = NSE.WebApp.MVC
+build_property.ProjectDir = C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
