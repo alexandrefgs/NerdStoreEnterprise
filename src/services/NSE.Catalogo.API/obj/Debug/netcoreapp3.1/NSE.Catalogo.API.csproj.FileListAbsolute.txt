@@ -75,3 +75,4 @@ C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Catalogo.AP
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.dll
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.pdb
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.genruntimeconfig.cache
+C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.sourcelink.json

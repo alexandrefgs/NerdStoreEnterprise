@@ -24,3 +24,4 @@ C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.Mess
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CopyComplete
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.dll
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.pdb
+C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.sourcelink.json

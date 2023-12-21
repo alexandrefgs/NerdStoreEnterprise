@@ -186,3 +186,4 @@ C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Identidade.
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.dll
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.pdb
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.genruntimeconfig.cache
+C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.sourcelink.json

@@ -18,3 +18,4 @@ C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.Core
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.csproj.CoreCompileInputs.cache
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.dll
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.sourcelink.json

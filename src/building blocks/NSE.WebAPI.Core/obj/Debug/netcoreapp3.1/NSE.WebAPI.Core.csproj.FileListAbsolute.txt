@@ -18,3 +18,4 @@ C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.WebA
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.csproj.CoreCompileInputs.cache
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.dll
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.pdb
+C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.sourcelink.json

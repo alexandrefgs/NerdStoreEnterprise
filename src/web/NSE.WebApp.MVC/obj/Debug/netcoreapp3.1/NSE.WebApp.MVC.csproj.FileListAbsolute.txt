@@ -758,3 +758,4 @@ C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\D
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.dll
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.pdb
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.genruntimeconfig.cache
+C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.sourcelink.json
