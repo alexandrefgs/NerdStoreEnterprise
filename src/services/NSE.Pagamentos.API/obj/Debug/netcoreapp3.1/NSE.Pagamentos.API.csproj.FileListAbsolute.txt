@@ -21,3 +21,4 @@ C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Pagamentos.
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\obj\Debug\netcoreapp3.1\NSE.Pagamentos.API.dll
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\obj\Debug\netcoreapp3.1\NSE.Pagamentos.API.pdb
 C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\obj\Debug\netcoreapp3.1\NSE.Pagamentos.API.genruntimeconfig.cache
+C:\Users\Alexandre\source\Repos\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\obj\Debug\netcoreapp3.1\NSE.Pagamentos.API.sourcelink.json
