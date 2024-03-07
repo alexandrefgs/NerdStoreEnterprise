@@ -1,23 +1,127 @@
-NerdStoreEnterprise
-Visão Geral
-Bem-vindo ao NerdStoreEnterprise, um projeto de E-Commerce inovador que utiliza microsserviços, gRPC, API Gateway, Docker, NGINX com Load Balancing e SSL para oferecer uma experiência de compra robusta e segura.
+# NerdShop - Uma aplicação de referência de comércio eletrônico com microservices construída com ASP.NET 6
 
-Arquitetura
-API de Pedidos (DDD)
-A API de Pedidos segue a arquitetura DDD, com camadas distintas para a API, domínio e infraestrutura. Utilizando CQRS, permite separar operações de leitura e gravação.
+Esta aplicação foi criada para fins educacionais e baseada em diversos cursos do site [desenvolvedor.io](https://desenvolvedor.io/).
+Uma aplicação de referência do mundo real desenvolvida por [desenvolvedor.io](https://desenvolvedor.io/) ❤️ Brasil, implementando as tecnologias mais comuns e amplamente utilizadas para compartilhar com a comunidade técnica a melhor forma de desenvolver aplicativos completos e complexos com .NET.
 
-API de Clientes
-A API de Clientes adota uma abordagem de camadas lógicas, com foco nas operações de aplicação, dados (Entity Framework), e domínio para agregações e entidades.
+---
 
-APIs de Pagamento, Carrinho e Catálogo
-Desenvolvidas como microsserviços, essas APIs implementam comunicação assíncrona via RabbitMQ, garantindo a consistência e a escalabilidade necessárias.
+<p align="center">
+    <img alt="DevStore" src="https://user-images.githubusercontent.com/5068797/164293734-a72fbeeb-0965-4413-a624-29e1c56c25df.png" />
+</p>
 
-Comunicação e Integração
-API Gateway: Facilita a comunicação entre as APIs de Pagamento, Pedido, Catálogo e Carrinho, proporcionando uma entrada única e simplificada para os clientes.
+## Quer aprender tudo para construir um aplicativo como este?  :mortar_board:
+Confira estes cursos online na [desenvolvedor.io](https://desenvolvedor.io/) (apenas em português)
 
-gRPC e JSON: A comunicação entre a aplicação frontend e a API Gateway utiliza JSON, enquanto a interação específica entre a API de Carrinho e a API Gateway de Compras é realizada através do eficiente protocolo gRPC com ProtoBuf.
+- [ASP.NET Core Expert](https://desenvolvedor.io/formacao/asp-net-core-expert)
+- [Software Architect](https://desenvolvedor.io/formacao/arquiteto-de-software)
 
-Identidade e Segurança: Implementação de tokens JWT, refresh tokens e chave assimétrica para garantir autenticação segura e autorização.
+## Tecnologias / Componentes Implementados
 
-Deploy em Containers Docker
-O projeto é completamente contido em contêineres Docker para facilitar a implantação e escalabilidade. O NGINX realiza Load Balancing entre quatro instâncias do frontend, conectando-se às APIs de Compras, que por sua vez interagem com as APIs necessárias para processar transações. Tanto o RabbitMQ quanto os bancos de dados (SQL Server e Event Store) são isolados em contêineres individuais. A segurança é reforçada com a implementação de SSL.
+- .NET 6
+    - ASP.NET MVC Core
+    - ASP.NET WebApi
+    - ASP.NET Minimal API
+    - ASP.NET Identity Core
+    - Refresh Token
+    - JWT com chaves pública/privada rotativas    
+    - GRPC
+    - Background Services
+    - Entity Framework Core 6
+
+- Componentes / Serviços
+    - RabbitMQ
+    - EasyNetQ
+    - Refit 
+    - Polly
+    - Bogus
+    - Dapper
+    - FluentValidator
+    - MediatR
+    - Swagger UI com suporte JWT
+    - NetDevPack
+    - NetDevPack.Identity
+    - NetDevPack.Security.JWT
+
+- Hospedagem
+    - IIS
+    - NGINX
+    - Docker (com compose)
+
+## Arquitetura:
+
+### Arquitetura completa implementando as preocupações mais importantes e utilizadas como:
+
+- Arquitetura Hexagonal
+- Código Limpo
+- Arquitetura Limpa
+- DDD - Domain Driven Design (Camadas e Padrão de Modelo de Domínio)
+- Eventos de Domínio
+- Notificação de Domínio
+- Validações de Domínio
+- CQRS (Consistência Imediata)
+- Padrão de Retentativa
+- Disjuntor de Circuito
+- Unidade de Trabalho
+- Repositório
+- Padrão de Especificação
+- API Gateway / BFF
+
+---
+
+## Visão Geral da Arquitetura
+
+### Toda a aplicação é baseada em uma única solução com 7 APIs e uma aplicação web (MVC)
+<p align="center">
+    <img alt="read before" src="https://user-images.githubusercontent.com/5068797/161202409-edcf2f38-0714-4de5-927d-1a02be4501ec.png" />
+</p>
+
+---
+
+Esta é uma aplicação de referência, onde cada microserviço tem seu próprio banco de dados e representa um contexto delimitado (conceito DDD).
+Existe um BFF / API Gateway para gerenciar as solicitações de Cesta / Pedido / Pagamento e a estrutura de dados das respostas.
+
+<p align="center">
+    <img alt="read before" src="https://user-images.githubusercontent.com/5068797/161207732-e4f67ce4-624d-4067-a756-67ee1bb553de.png" />
+</p>
+
+---
+
+## Como Começar
+Você pode executar o projeto DevStore em qualquer sistema operacional. **Certifique-se de ter o Docker instalado em seu ambiente.** ([Obtenha a Instalação do Docker](https://docs.docker.com/get-docker/))
+
+Clone o repositório DevStore e vá para a pasta **/Docker** e então:
+
+### Se você só quer executar a aplicação DevStore no seu ambiente Docker:
+
+docker-compose -f nerdstore_production.yml up
+
+### Se você quer construir as imagens locais e executar a aplicação DevStore no seu ambiente Docker:
+
+Este compose fornecerá um contêiner de banco de dados para cada serviço da API.
+
+docker-compose -f nerdstore_production.yml up --build
+
+---
+
+### Se você quer executar localmente com o VS/VS Code:
+
+Você precisará de:
+
+- Docker
+- Instância SQL (ou contêiner)
+
+Então, você pode editar o Docker compose para apenas executar as dependências de banco de dados e fila e economizar seu tempo.
+
+### Se você quer o Visual Studio com a experiência F5 e depuração:
+
+- Você precisará pelo menos do Visual Studio 2022 e .NET 6.
+- A versão mais recente do SDK e das ferramentas podem ser baixadas em [dot.net/core](https://dot.net/core).
+- Configure a solução para iniciar vários projetos e pressione F5.
+
+![image](https://user-images.githubusercontent.com/5068797/161358024-bd5754b6-61e3-47f2-bd17-bd3c32ec4bdd.png)
+
+---
+
+## Sobre
+O DevStore foi orgulhosamente desenvolvido pela equipe [desenvolvedor.io](https://desenvolvedor.io/) ❤️<img alt="Brasil" src="https://user-images.githubusercontent.com/5068797/161345649-c7184fdc-2bc3-42a9-8fb6-6ffee9c8f9c2.png" width="20" height="14" /> sob a [licença MIT](LICENSE).
+
