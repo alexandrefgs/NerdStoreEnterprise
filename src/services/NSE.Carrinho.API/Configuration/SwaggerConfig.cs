@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace NSE.Catalogo.API.Configuration
+namespace NSE.Carrinho.API.Configuration
 {
     public static class SwaggerConfig
     {
@@ -13,10 +13,10 @@ namespace NSE.Catalogo.API.Configuration
             {
                 c.SwaggerDoc("v1", new OpenApiInfo()
                 {
-                    Title = "NerdStore Enterprise Catálogo API",
+                    Title = "NerdStore Enterprise Carrinho API",
                     Description = "Esta API faz parte do curso ASP.NET Core Enterprise Applications.",
-                    Contact = new OpenApiContact() { Name = "Eduardo Pires", Email = "contato@desenvolvedor.io" },
-                    License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
+                    Contact = new OpenApiContact() {Name = "Eduardo Pires", Email = "contato@desenvolvedor.io"},
+                    License = new OpenApiLicense() {Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT")}
                 });
 
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
