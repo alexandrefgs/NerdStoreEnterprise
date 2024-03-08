@@ -1,7 +1,7 @@
 # NerdShop - Uma aplicação de referência de comércio eletrônico com microservices construída com ASP.NET 3
 
 Esta aplicação foi criada para fins educacionais e baseada em diversos cursos do site [desenvolvedor.io](https://desenvolvedor.io/).
-Uma aplicação de referência do mundo real desenvolvida por [desenvolvedor.io](https://desenvolvedor.io/) ❤️ Brasil, implementando as tecnologias mais comuns e amplamente utilizadas para compartilhar com a comunidade técnica a melhor forma de desenvolver aplicativos completos e complexos com .NET.
+Uma aplicação de referência do mundo real desenvolvida por [desenvolvedor.io](https://desenvolvedor.io/) ❤️implementando as tecnologias mais comuns e amplamente utilizadas para compartilhar com a comunidade técnica a melhor forma de desenvolver aplicativos completos e complexos com .NET.
 
 ---
 
