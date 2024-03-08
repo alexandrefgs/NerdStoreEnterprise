@@ -1,4 +1,4 @@
-# NerdShop - Uma aplicação de referência de comércio eletrônico com microservices construída com ASP.NET 6
+# NerdShop - Uma aplicação de referência de comércio eletrônico com microservices construída com ASP.NET 3
 
 Esta aplicação foi criada para fins educacionais e baseada em diversos cursos do site [desenvolvedor.io](https://desenvolvedor.io/).
 Uma aplicação de referência do mundo real desenvolvida por [desenvolvedor.io](https://desenvolvedor.io/) ❤️ Brasil, implementando as tecnologias mais comuns e amplamente utilizadas para compartilhar com a comunidade técnica a melhor forma de desenvolver aplicativos completos e complexos com .NET.
@@ -17,7 +17,7 @@ Confira estes cursos online na [desenvolvedor.io](https://desenvolvedor.io/) (ap
 
 ## Tecnologias / Componentes Implementados
 
-- .NET 6
+- .NET 3
     - ASP.NET MVC Core
     - ASP.NET WebApi
     - ASP.NET Minimal API
@@ -51,19 +51,19 @@ Confira estes cursos online na [desenvolvedor.io](https://desenvolvedor.io/) (ap
 
 ### Arquitetura completa implementando as preocupações mais importantes e utilizadas como:
 
-- Arquitetura Hexagonal
-- Código Limpo
-- Arquitetura Limpa
+- Hexagonal Architecture
+- Clean Code
+- Clean Architecture
 - DDD - Domain Driven Design (Camadas e Padrão de Modelo de Domínio)
-- Eventos de Domínio
-- Notificação de Domínio
-- Validações de Domínio
+- Domain Events
+- Domain Notification
+- Domain Validations
 - CQRS (Consistência Imediata)
-- Padrão de Retentativa
-- Disjuntor de Circuito
-- Unidade de Trabalho
-- Repositório
-- Padrão de Especificação
+- Retry Pattern
+- Circuit Breaker
+- Unit of Work
+- Repository
+- Specification Pattern
 - API Gateway / BFF
 
 ---
@@ -78,7 +78,7 @@ Confira estes cursos online na [desenvolvedor.io](https://desenvolvedor.io/) (ap
 ---
 
 Esta é uma aplicação de referência, onde cada microserviço tem seu próprio banco de dados e representa um contexto delimitado (conceito DDD).
-Existe um BFF / API Gateway para gerenciar as solicitações de Cesta / Pedido / Pagamento e a estrutura de dados das respostas.
+Existe um BFF / API Gateway para gerenciar as solicitações de Carrinho / Pedido / Pagamento e a estrutura de dados das respostas.
 
 <p align="center">
     <img alt="read before" src="https://user-images.githubusercontent.com/5068797/161207732-e4f67ce4-624d-4067-a756-67ee1bb553de.png" />
@@ -87,15 +87,15 @@ Existe um BFF / API Gateway para gerenciar as solicitações de Cesta / Pedido /
 ---
 
 ## Como Começar
-Você pode executar o projeto DevStore em qualquer sistema operacional. **Certifique-se de ter o Docker instalado em seu ambiente.** ([Obtenha a Instalação do Docker](https://docs.docker.com/get-docker/))
+Você pode executar o projeto NerdShop em qualquer sistema operacional. **Certifique-se de ter o Docker instalado em seu ambiente.** ([Obtenha a Instalação do Docker](https://docs.docker.com/get-docker/))
 
-Clone o repositório DevStore e vá para a pasta **/Docker** e então:
+Clone o repositório NerdShop e vá para a pasta **/Docker** e então:
 
-### Se você só quer executar a aplicação DevStore no seu ambiente Docker:
+### Se você só quer executar a aplicação NerdShop no seu ambiente Docker:
 
 docker-compose -f nerdstore_production.yml up
 
-### Se você quer construir as imagens locais e executar a aplicação DevStore no seu ambiente Docker:
+### Se você quer construir as imagens locais e executar a aplicação NerdShop no seu ambiente Docker:
 
 Este compose fornecerá um contêiner de banco de dados para cada serviço da API.
 
@@ -111,12 +111,6 @@ Você precisará de:
 - Instância SQL (ou contêiner)
 
 Então, você pode editar o Docker compose para apenas executar as dependências de banco de dados e fila e economizar seu tempo.
-
-### Se você quer o Visual Studio com a experiência F5 e depuração:
-
-- Você precisará pelo menos do Visual Studio 2022 e .NET 6.
-- A versão mais recente do SDK e das ferramentas podem ser baixadas em [dot.net/core](https://dot.net/core).
-- Configure a solução para iniciar vários projetos e pressione F5.
 
 ![image](https://user-images.githubusercontent.com/5068797/161358024-bd5754b6-61e3-47f2-bd17-bd3c32ec4bdd.png)
 
